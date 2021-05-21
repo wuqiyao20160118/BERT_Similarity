@@ -61,6 +61,6 @@ def main(_):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='BERT Similarity Project')
     parser.add_argument('--input_file', type=str, required=True, help='Plain Input file directory.')
-    parser.add_argument('--input_file', type=str, required=True, help='Output file.')
+    parser.add_argument('--output_file', type=str, required=True, help='Output file.')
     args = parser.parse_args()
     main(args)
